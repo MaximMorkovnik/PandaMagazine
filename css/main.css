@@ -86,27 +86,27 @@ h6 {
 }
 
 .nav-item {
-    width: 7%;
+    flex-grow: 0.7;
     text-align: center;
 }
 
 .nav-item2 {
-    width: 10%;
+    flex-grow: 1;
     text-align: center;
 }
 
 .nav-item3 {
-    width: 17%;
+    flex-grow: 1.7;
     text-align: center;
 }
 
 .nav-item4 {
-    width: 12%;
+    flex-grow: 1.2;
     text-align: center;
 }
 
 .nav-item5 {
-    width: 8%;
+    flex-grow: 0.8;
     text-align: center;
 }
 
