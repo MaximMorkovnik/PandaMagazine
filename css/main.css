@@ -195,7 +195,7 @@ h6 {
     margin: 80px auto 0;
 }
 
-.btn-form {
+.form__button {
     float: left;
     width: 20%;
     padding: 10px;
@@ -210,12 +210,12 @@ h6 {
     height: 52px;
 }
 
-.btn-form-seach {
+.form-search__button {
     height: 44px;
     border: 1px solid grey;
 }
 
-.btn-form-contacts {
+.form-contacts__button {
     border-radius: 10px;
     max-width: 30%;
     float: right;
@@ -352,7 +352,7 @@ h6 {
     /* сверху | горизонтально | снизу */
 }
 
-.form-seach {
+.form-search {
     width: 20%;
     margin-right: 14px;
 }
@@ -364,7 +364,7 @@ h6 {
     justify-content: center;
 }
 
-.input {
+.search {
     max-width: 80%;
     outline: none;
     border: 1px solid #bbbbbb;
@@ -377,12 +377,12 @@ h6 {
     float: left;
 }
 
-.input-seach {
+.search__input {
     width: 100%;
     border: 1px solid #88AC08;
 }
 
-.input_contacts {
+.form-contacts__input {
     border-radius: 10px;
     border: 1px solid #bbbbbb;
     height: 52px;
@@ -392,15 +392,15 @@ h6 {
     margin-right: 10px;
 }
 
-.input:hover,
-.input:active,
-.input:focus {
+.search:hover,
+.search:active,
+.search:focus {
     border: 1px solid #626262;
 }
 
-.input_contacts:hover,
-.input_contacts:active,
-.input_contacts:focus {
+.form-contacts__input:hover,
+.form-contacts__input:active,
+.form-contacts__input:focus {
     border: 1px solid #626262;
 }
 
@@ -534,7 +534,7 @@ h6 {
         margin-left: -24px;
     }
 
-    .btn-form-contacts {
+    .form-contacts__button {
         text-align: center;
         padding-left: 1.4em;
     }
@@ -584,17 +584,17 @@ h6 {
         height: 24px;
     }
 
-    .form-seach {
+    .form-search {
         width: 18%;
         display: flex;
     }
 
-    .input-seach {
+    .search__input {
         width: 80%;
         height: 24px;
     }
 
-    .btn-form-seach {
+    .form-search__button {
         max-width: 30px;
         height: 24px;
         align-items: center;
@@ -640,11 +640,11 @@ h6 {
         height: 16px;
     }
 
-    .input {
+    .search {
         font-size: 8px;
     }
 
-    .input_contacts {
+    .form-contacts__input {
         font-size: 8px;
     }
 
@@ -652,11 +652,11 @@ h6 {
         height: 20px;
     }
 
-    .input-seach {
+    .search__input {
         height: 20px;
     }
 
-    .btn-form-seach {
+    .form-search__button {
         height: 20px;
         padding-top: 2px;
     }
@@ -677,7 +677,7 @@ h6 {
         font-size: 22px;
     }
 
-    .form-seach {
+    .form-search {
         width: 1%;
         margin-right: 0px;
     }
@@ -749,20 +749,20 @@ h6 {
         align-items: flex-start;
     }
 
-    .input_contacts {
+    .form-contacts__input {
         margin: 0;
         margin-bottom: 10px;
     }
 
-    .input-seach {
+    .search__input {
         display: none;
     }
 
-    .btn-form-seach {
+    .form-search__button {
         display: none;
     }
 
-    .btn-form-contacts {
+    .form-contacts__button {
         font-size: 8px;
         margin: 0;
         max-width: 100%;
