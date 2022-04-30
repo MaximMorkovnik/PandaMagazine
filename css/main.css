@@ -456,7 +456,7 @@ h6 {
     color: #000;
 }
 
-.about-link-right {
+.about-link--right {
     margin-left: 40px;
 }
 
@@ -470,7 +470,7 @@ h6 {
     margin-inline-end: auto;
 }
 
-.footer_logo {
+.footer__logo {
     font-family: 'Source Sans Pro', sent-serif;
     font-style: normal;
     font-weight: 600;
@@ -479,12 +479,12 @@ h6 {
     margin-inline-end: auto;
 }
 
-.footer_socials {
+.footer-socials {
     display: flex;
     align-items: center;
 }
 
-.footer_link {
+.footer__link {
     padding-left: 20px;
 }
 
@@ -801,7 +801,7 @@ h6 {
         font-size: 8px;
     }
 
-    .about-link-right {
+    .about-link--right {
         margin-left: 0px;
     }
 
@@ -809,12 +809,12 @@ h6 {
         font-size: 10px;
     }
 
-    .footer_logo {
+    .footer__logo {
         font-size: 12px;
         text-align: center;
     }
 
-    .footer_link {
+    .footer__link {
         padding-left: 6px;
     }
 
