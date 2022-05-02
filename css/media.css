@@ -11,22 +11,13 @@
         height: 50%;
     }
 
-    .wrapper {
-        width: 100%;
-    }
-
-    .offer {
-        width: 100%;
-    }
-
     .cards {
-        width: 100%;
         display: flex;
         justify-content: center;
     }
 
     .card {
-        margin-right: 30px;
+        margin: 15px;
     }
 
     .card-contacts {
@@ -47,6 +38,10 @@
     .form-contacts__button {
         text-align: center;
         padding-left: 1.4em;
+    }
+
+    .about {
+        margin-top: 100px;
     }
 
 }
@@ -73,10 +68,6 @@
 
     .title {
         margin-top: 100px;
-    }
-
-    .offer {
-        width: 100%;
     }
 
     .intro {
@@ -214,11 +205,6 @@
     .cart {
         height: 12px;
         margin-right: 5px;
-    }
-
-    .cards {
-        display: flex;
-        justify-content: space-between;
     }
 
     .card {
