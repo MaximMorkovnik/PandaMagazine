@@ -1,5 +1,17 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --grey: #C5C3C3;
+    --light-green: #88AC08;
+    --light-grey-background: #FCFCFC;
+    --header: #221F1F;
+    --footer: #575757;
+    --price-red: #EC4A5E;
+    --font: 'Source Sans Pro', sent-serif;
+}
+
 body {
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
     font-size: 16px;
     padding: 0;
     margin: 0;
@@ -65,13 +77,10 @@ h6 {
 
 .navbar {
     height: 72px;
-    background: #221F1F;
-    color: #929292;
-    text-decoration: none;
+    background: var(--header);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Source Sans Pro', sent-serif;
     padding-right: 0;
     list-style: none;
     width: 100%;
@@ -114,17 +123,16 @@ h6 {
 .nav-link {
     text-decoration: none;
     color: #E7E7E7;
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
 }
 
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus {
-    color: #88AC08;
+    color: var(--light-green);
     font-weight: normal;
     letter-spacing: -0.1em;
     font-style: normal;
-    font-weight: 600;
 }
 
 .nav_footer {
@@ -143,12 +151,12 @@ h6 {
 }
 
 .offer {
-    background: #FCFCFC;
+    background: var(--light-grey-background);
     box-shadow: 0px 0px 20px rgba(185, 185, 185, 0.4);
 }
 
 .title {
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
@@ -164,23 +172,23 @@ h6 {
 
 .logo {
     margin-bottom: -2px;
-    filter: drop-shadow(-7px 0px 7px #FFFFFF);
+    filter: drop-shadow(-7px 0px 7px var(--white));
     padding-left: 14px;
 }
 
 .intro {
     margin-bottom: 40px;
     width: 350px;
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
     font-size: 15px;
     line-height: 1.65em;
 }
 
 .btn {
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
     font-size: 15px;
-    background: #88AC08;
-    color: white;
+    background: var(--light-green);
+    color: var(--white);
     display: block;
     width: 200px;
     height: 58px;
@@ -200,10 +208,10 @@ h6 {
     float: left;
     width: 20%;
     padding: 10px;
-    background: #88AC08;
-    color: white;
+    background: var(--light-green);
+    color: var(--white);
     font-size: 12px;
-    border: 1px solid grey;
+    border: 1px solid var(--grey);
     border-left: none;
     cursor: pointer;
     border-top-left-radius: 0px;
@@ -257,9 +265,9 @@ h6 {
 .card {
     width: 350px;
     height: 470px;
-    border: 1px solid #C5C3C3;
+    border: 1px solid var(--grey);
     border-radius: 20px;
-    background: #FCFCFC;
+    background: var(--light-grey-background);
     margin-bottom: 30px;
     filter: drop-shadow(5px 5px 5px rgba(185, 185, 185, 0.25));
     display: flex;
@@ -278,15 +286,15 @@ h6 {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
     list-style: none;
     width: 100%;
-    color: black;
+    color: var(--black);
 }
 
 .card-title {
     margin-top: 348px;
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
     font-size: 16px;
     text-transform: uppercase;
     padding-left: 30px;
@@ -294,16 +302,16 @@ h6 {
 }
 
 .card-text {
-    font-size: 13px;
+    font-size: 14px;
     text-decoration-line: line-through;
     text-transform: uppercase;
-    color: #908A74;
+    color: var(--grey);
     padding-left: 30px;
 }
 
 .card-price {
-    font-size: 17px;
-    color: #EC4A5E;
+    font-size: 18px;
+    color: var(--price-red);
     padding-left: 30px;
 }
 
@@ -342,7 +350,7 @@ h6 {
 }
 
 .contacts {
-    background: #ecf3f8;
+    background: var(--light-grey-background);
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -380,12 +388,12 @@ h6 {
 
 .search__input {
     width: 100%;
-    border: 1px solid #88AC08;
+    border: 1px solid var(--light-green);
 }
 
 .form-contacts__input {
     border-radius: 10px;
-    border: 1px solid #bbbbbb;
+    border: 1px solid var(--grey);
     height: 52px;
     padding-left: 20px;
     width: 100%;
@@ -406,7 +414,7 @@ h6 {
 }
 
 .contacts {
-    border: 1px solid #bbbbbb;
+    border: 1px solid var(--grey);
 }
 
 .about1 {
@@ -447,14 +455,15 @@ h6 {
 
 .about-body {
     font-size: 17px;
-    color: #C5C3C3;
+    color: var(--grey);
     margin-top: -40px;
     margin-bottom: 95px;
 }
 
 .about-link {
     font-size: 17px;
-    color: #000;
+    color: var(--black);
+    letter-spacing: -0.1em;
 }
 
 .about-link--right {
@@ -462,21 +471,22 @@ h6 {
 }
 
 .footer {
-    padding: 25px 0;
-    /* По вертикали | По горизонтали */
-    background: #575757;
-    color: white;
+    height: 120px;
+    background: var(--footer);
+    color: var(--white);
     font-size: 16px;
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
     margin-inline-end: auto;
+    display: flex;
+    align-items: center;
 }
 
 .footer__logo {
-    font-family: 'Source Sans Pro', sent-serif;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
-    color: white;
+    color: var(--white);
     margin-inline-end: auto;
 }
 
